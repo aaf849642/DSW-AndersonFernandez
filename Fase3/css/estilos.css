@@ -1,0 +1,33 @@
+header{
+    text-align: center;
+    background-color:darkcyan;
+    
+}
+section{
+    float: left;
+    max-width: 70%;
+    background-color: darkgrey;
+    text-align: left;
+}
+article{
+    background-color:chocolate ;
+    text-align: left;
+}
+aside{
+     float: left;
+     width: 30%;
+     background-color:darkgoldenrod;
+}
+footer{
+    background-color:darkcyan;
+    
+ }
+
+.contenedor::after{
+    content:"";
+    display: block;
+    clear:both;
+
+}
+ 
+
