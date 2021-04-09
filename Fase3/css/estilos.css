@@ -1,25 +1,28 @@
 header{
     text-align: center;
-    background-color:darkcyan;
+    background-color:rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
     
 }
 section{
     float: left;
     max-width: 70%;
-    background-color: darkgrey;
+    background-color:orange;
     text-align: left;
 }
 article{
-    background-color:chocolate ;
+    background-color:darkgrey;;
     text-align: left;
+    
 }
 aside{
      float: left;
      width: 30%;
-     background-color:darkgoldenrod;
+     background-color;#fff;
 }
 footer{
-    background-color:darkcyan;
+    background-color:black;
+    color: #fff;
     
  }
 
