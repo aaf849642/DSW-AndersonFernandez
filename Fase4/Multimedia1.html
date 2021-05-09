@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Etiquetas Semanticas, Listas y Enlaces</title>
+<link rel="stylesheet" href="css/estilos.css">
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .menu-area a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        background: black;
+        height: 50px;
+        text-decoration: none;
+    }
+
+    .menu-area a:hover {
+        background: tomato;
+        color: #fff;
+
+    }
+
+    .menu-area ul {
+        list-style: none;
+        display: flex;
+    }
+
+    .menu-area li {
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu-area li:hover .dropdown-1>li {
+        top: 0;
+        display: block;
+    }
+
+    .dropdown-1 li {
+        display: none;
+        position: relative;
+    }
+
+    .dropdown-1 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .dropdown-1 li:hover {
+        display: block;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas Semanticas, Listas y Enlaces</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .menu-area a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            background: black;
+            height: 50px;
+            text-decoration: none;
+        }
+
+        .menu-area a:hover {
+            background: tomato;
+            color: #fff;
+
+        }
+
+        .menu-area ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .menu-area li {
+            position: relative;
+            width: 100%;
+            text-align: center;
+        }
+
+        .menu-area li:hover .dropdown-1>li {
+            top: 0;
+            display: block;
+        }
+
+        .dropdown-1 li {
+            display: none;
+            position: relative;
+        }
+
+        .dropdown-1 {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .dropdown-1 li:hover {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Etiquetas Semanticas, Listas y Enlaces</h1>
+        <nav class="menu-area">
+            <ul>
+                <li> <a href="Index.html">Inicio</a> </li>
+                <li><a href="#">Temas</a>
+                    <ul class="dropdown-1">
+                        <li><a href="Tema1.html">Etiquetas Semanticas</a></li>
+                        <li><a href="Tema2.html">Listas y Enlances</a></li>
+                    </ul>
+                <li><a href="#">Recursos Digitales</a>
+                    <ul class="dropdown-1">
+                        <li> <a href="Multimedia1.html">Recursos - Etiquetas Semanticas</a></li>
+                        <li> <a href="Multimedia2.html">Recursos - Listas y Enlances</a> </li>
+                    </ul>
+                <li><a href="Aprendizaje0.html">Aprendizaje</a>
+                    <ul class="dropdown-1">
+                        <li><a href="Aprendizaje3.html">Actividad 1</a> </li>
+                        <li><a href="Aprendizaje4.html">Actividad 2</a></li>
+                    </ul>
+                <li><a href="Acerca.html">Acerca de</a></li>
+            </ul>
+        </nav>
+
+        <div class="contenedor">
+            <section>
+                <center>
+                    <h1>Este sitio WEB permite el apredizaje de Etiquetas Semanticas, Listas y Enlaces en HTML</h1>
+                </center><br>
+
+                <p>
+                    El propósito de este sitio WEB es desarrollar un espacio como herramienta didáctica que ayude a
+                    suplir la necesidad de la presencialidad por temas del COVID, el cual pueda ser utilizado por todas
+                    las instituciones educativas para el aprendizaje de diseño de Sitios
+                    Web. Adicionalmente este sitio es el trabajo de sustentación de lo desarrollado en la fase 3 de la
+                    materia de Desarrollo de sitios WEB de la universidad UNAD.<br>
+
+                    <br>
+                </p>
+
+                <article>
+                                      <p>
+
+                    <h4>Etiquetas Semanticas:</h4><br> HTML5 incorporo etiquetas con el fin de facilitar la estructura
+                    de la pagina web, permitiendo que esta sea mas logica y funcional, permitiendo simplificar lo
+                    conocido en HTML4.
+                    Dentro de las etiquetas mas conocidas se encuentran: <br>
+                    <br>
+                    <h4>Header - Footer - Nav - Section - Aside - Article</h4>
+
+                    <br>
+                    <br>
+                    <Center><iframe width="560" height="315" src="https://www.youtube.com/embed/3IeFNTVy2aI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></Center>
+
+                    <br>
+                    <br>
+                    <br>
+
+                    </p>
+                </article>
+
+            </section>
+
+            <aside>
+
+                <iframe
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD&tabs=timeline&width=340&height=565&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                    width="400" height="561" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                </iframe>
+
+            </aside>
+
+        </div>
+
+        <footer>
+            <h5>Anderson.Fernandez@gmail.com <br>
+                Skype: anderson-fernandez <br>
+                Fecha: 08-04-2021 <br></h5>
+        </footer>
+    </header>
+</body>
+
+</html>
